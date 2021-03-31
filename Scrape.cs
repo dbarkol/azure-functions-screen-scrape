@@ -27,6 +27,7 @@ namespace Zohan.Funcs
             var availabilityResponse = new { available = node == null, productUrl = url};
 
             return new OkObjectResult(availabilityResponse);
+            
         }
     }
 }
